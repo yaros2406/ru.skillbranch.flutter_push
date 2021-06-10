@@ -37,9 +37,9 @@ class _MyHomePageState extends State<MyHomePage> {
       backgroundColor: Color(0xff282e3d),
       body: Stack(
         children: [
-          Align(alignment: const Alignment(0, -0.8),child: Text("Test your \n reaction speed",
+          Align(alignment: const Alignment(0, -0.8),child: Text("Test your \nreaction speed",
             textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 38, fontWeight: FontWeight.w900, fontStyle: FontStyle.normal, color: Color(0xFFFFFFFF)),
+            style: TextStyle(fontSize: 38, fontWeight: FontWeight.w900, color: Colors.white),
           )
           ),
           Align(alignment: Alignment.center,
@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Center(
                   child: Text(msecText,
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 36, fontWeight: FontWeight.w400, fontStyle: FontStyle.normal, color: Colors.white),
+                    style: TextStyle(fontSize: 36, fontWeight: FontWeight.w500, color: Colors.white),
                   ),
                 ),
               ),
@@ -86,7 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Text(
                         _getButtonText(),
                         textAlign: TextAlign.center,
-                        style: TextStyle(fontSize: 38, fontWeight: FontWeight.w900, fontStyle: FontStyle.normal, color: Colors.white),
+                        style: TextStyle(fontSize: 38, fontWeight: FontWeight.w900, color: Colors.white),
                       ),
                     ),
                   ),
